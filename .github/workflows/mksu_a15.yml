@@ -138,7 +138,6 @@ jobs:
           cd ..
         else
           cd ./KernelSU
-          sed -i '/https:\/\/android-review.googlesource.com.*3725346/{N;d;}' kernel/selinux/rules.c
           cd ..
         fi
         
